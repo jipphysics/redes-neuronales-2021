@@ -19,7 +19,7 @@ La receta es:
 
 ## Crear una **maquina virtual** con **Virtual Box**
 
-  1. Inicial **Virtual Box**,
+  1. Inicial **Virtual Box**.
   2. Darle click al boton **New** (arriba centro).
   3. Aparece una ventana en donde hay que darle un nombre a la **máquina virtual** y elegir el tipo (ej. **Linux**) y la versión de **Sistema Operativo** **guest** (ej. **Ubuntu 64bit**),
       ![img1.png](assets/img1.png)
@@ -32,10 +32,17 @@ La receta es:
   7. Luego hay que especificar si el **disco virtual** (el cuál será un gran archivo en su **Sistema Operativo** **host**) tendrá un tamaño dinámico o fijo. La opción dinámica es conveniente. Simplemente clickee **Next**.
       ![img5.png](assets/img5.png)  
   8. Luego hay que especificar el tamaño máximo del **disco virtual**. Sugiero 20GB.
-      ![img5.png](assets/img6.png)
+      ![img6.png](assets/img6.png)
      Luego, clickee **Crear** y la **máquina virtual** se creará.
 
 ## Instalar **Ubuntu** en la **maquina virtual**
 
-
-
+  1. Bajar el archivo **.iso** (imagen del CD) de instalación de **Ubuntu**. Sugiero bajar la última versión **LTS** de **64bits**, actualmente la [20.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64).
+      ![img7.png](assets/img7.png)
+  2. Inciar la **maquina virtual** recién creada eligiendola del menú y clickeando el boton **Start**. Esto inicializará la máquina, pero la misma dará error ya que no hemos insertado el archivo **.iso** o CD de instalación previamente descargado. Para insertarlo, ir al menú de la **máquina virtual**: *Devices -> Optical Drives -> Choose a disk file*, y elegir el archivo **.iso** previamente descargado. 
+      ![img8.png](assets/img8.png)
+  3. Luego hay que resetear la **máquina virtual** llendo al menu: *Machine -> Reset*.
+      ![img9.png](assets/img9.png)  
+  4. La **máquina virtual** debería reiniciar ejecutando el proceso de instalación de **Ubuntu**.
+      ![img9.png](assets/img9.png)  
+     Proceder con la instalación. En algun momento puede que durante el proceso le aparezca un cartel preguntando si desea borrar el disco rígido. No se asuste, el disco que se borrará será el de la **máquina virtual** recientemente creada, y no el de su sistema operativo **host**. Si dicho cartel aparece, proceda.
