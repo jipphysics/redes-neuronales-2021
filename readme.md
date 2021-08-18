@@ -1,4 +1,4 @@
-# Repositorio del curso Redes Neuronales  
+# Repositorio del curso **Redes Neuronales 2021**
 
 Página oficial del curso
 
