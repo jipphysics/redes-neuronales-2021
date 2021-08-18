@@ -39,7 +39,7 @@ La receta es:
 
 Las **Guest Additions** le permitira a su **Ubuntu** **guest** interactuar (intercambiar archivos, etc) con el **Sistema Operativo** **host** (ej. su **Windows**).
 
-1. Bajar el archivo **.iso** (imagen del CD) de instalación de **Ubuntu**. Sugiero bajar la última versión **LTS** de **64bits**, actualmente la [20.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64). Alternativamente, si tu PC no es muy poderosa, sugiero la última **LTS** de **64bits** de **Xubuntu**, actualmente la [18.04](https://xubuntu.org/download), que se baja via **torrent**.
+1. Bajar el archivo **.iso** (imagen del CD) de instalación de **Ubuntu**. Sugiero bajar la última versión **LTS** de **64bits**, actualmente la [20.04 LTS](https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64). Alternativamente, si tu PC no es muy poderosa, sugiero la última **LTS** de **64bits** de **Xubuntu**, actualmente la [18.04](https://xubuntu.org/download), que se baja via **torrent**. Aún más liviano es **Lubuntu**, cuya última versión **LTS** de **64bits** es la **20.04** y se la puede bajar via **torrent** de aquí [https://lubuntu.me/downloads/](https://lubuntu.me/downloads/).
       ![img7.png](assets/img7.png)
 2. Inciar la **maquina virtual** recién creada eligiendola del menú y clickeando el boton **Start**. Esto inicializará la máquina, pero la misma dará error ya que no hemos insertado el archivo **.iso** o CD de instalación previamente descargado. Para insertarlo, ir al menú de la **máquina virtual**: *Devices -> Optical Drives -> Choose a disk file*, y elegir el archivo **.iso** previamente descargado. 
       ![img8.png](assets/img8.png)
