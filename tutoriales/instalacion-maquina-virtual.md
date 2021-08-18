@@ -19,7 +19,10 @@ La receta es:
 
 ## Crear una **maquina virtual** con **Virtual Box**
 
-
+  1. Inicial **Virtual Box**,
+  2. Darle click al boton **New** (arriba centro).
+  3. Aparece una ventana en donde hay que darle un nombre a la **máquina virtual** y elegir el tipo (ej. **Linux**) y la versión de **Sistema Operativo** **guest** (ej. **Ubuntu 64bit**),
+      ![img1.png](assets/img1.png)
 
 ## Instalar **Ubuntu** en la **maquina virtual**
 
