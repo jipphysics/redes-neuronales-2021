@@ -65,7 +65,28 @@ Las **Guest Additions** le permitira a su **Ubuntu** **guest** interactuar (inte
 
       ![img12.png](assets/img12.png)
          
-    Al hacer esto, el **Ubuntu** **guest** le preguntará su password de usario. Ingrésela para proceder. La primer línea de comando es necesaria para que el instalador de **Guest Additions** tenga accesso a **gcc**. La segunda instala las **Guest Additions**. Finalmente, resetee la **máquina virtual**.
+    Al hacer esto, el **Ubuntu** **guest** le preguntará su password de usario. Ingrésela para proceder. La primer línea de comando es necesaria para que el instalador de **Guest Additions** tenga accesso a **gcc**. La segunda instala las **Guest Additions**. Finalmente, resetee la **máquina virtual** para que la instalación tenga efecto.
     
 6. Crear una **shared folder** entre el **Ubuntu Guest** y el **Sistema Operativo** **host**:
 
+    6.1 Abrir una terminal y ejecutar las siguientes lineas de comando:
+    
+    `$ sudo adduser $USER vboxsf`
+    
+    `sudo usermod --append --groups vboxsf $USER`
+    
+    6.2 Luego crear una shared folder en el menú: *Devices -> Shared Folders -> Shared Folders Settings*.
+    
+    ![img13.png](assets/img13.png)
+    
+    Esto abrirá un panel. A la derecha del mismo hay 3 íconos. El primero sirve para crear una shared folder. El segundo para editar una y el tercero para borrar una. Clikee el ícono para crear una.
+    
+    ![img14.png](assets/img14.png)
+    
+    En el panel que se abre, setee *Auto-mount* y *Make Permanent*. Además, rellene el campo *Folder Path* con el directorio de su **Sistema Operativo** **host** que desea compartir. Finalmente, rellene el campo *Folder Name* con el nombre que uds. desea para el directorio compartido en su **Sistema Operativo** **guest**.
+    
+    ![img15.png](assets/img15.png)
+    
+    Podrá encontrar la carpeta compartida abriendo el administrador de archivos. Aparecerá como un disco extraible.
+    
+    ![img16.png](assets/img16.png)    
