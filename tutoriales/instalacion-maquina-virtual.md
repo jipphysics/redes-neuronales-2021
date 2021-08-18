@@ -23,6 +23,17 @@ La receta es:
   2. Darle click al boton **New** (arriba centro).
   3. Aparece una ventana en donde hay que darle un nombre a la **máquina virtual** y elegir el tipo (ej. **Linux**) y la versión de **Sistema Operativo** **guest** (ej. **Ubuntu 64bit**),
       ![img1.png](assets/img1.png)
+  4. Luego darle a **Next**, aparece una nueva ventana en donde hay que elegir cuanta **memoria virtual** vamos a asignar a la **máquina virtual**. Les recomiendo 4GB o más. Recuerde no confundir MB (Mega Bytes) con GB (Giga Bytes), 1GB = 1000MB.
+      ![img2.png](assets/img2.png)    
+  5. Luego hay que crear un **disco virtual**. Simplemente clickee **Next**.
+      ![img3.png](assets/img3.png)      
+  6. Luego hay que especificar el tipo de disco virtual a utilizar. El recomendado está bien. Simplemente clickee **Next**.
+      ![img4.png](assets/img4.png)
+  7. Luego hay que especificar si el **disco virtual** (el cuál será un gran archivo en su **Sistema Operativo** **host**) tendrá un tamaño dinámico o fijo. La opción dinámica es conveniente. Simplemente clickee **Next**.
+      ![img5.png](assets/img5.png)  
+  8. Luego hay que especificar el tamaño máximo del **disco virtual**. Sugiero 20GB.
+      ![img5.png](assets/img6.png)
+     Luego, clickee **Crear** y la **máquina virtual** se creará.
 
 ## Instalar **Ubuntu** en la **maquina virtual**
 
