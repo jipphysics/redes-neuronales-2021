@@ -38,6 +38,26 @@ y continúe con la instalación por defecto.
   
 ## Inicie **Jupyter**
 
-1.  En la terminal escriba
+1. Active el entorno base de conda (salvo que ya lo tenga activo)
 
-  `$ conda activate redes-neuronales`
+  `$ source ~/miniconda3/bin/activate`
+
+2. Active el entorno recientemente creado en conda
+
+  `(base) $ conda activate redes-neuronales`
+  
+3. Luego type
+  
+  `(redes-neuronales) $ conda jupyter notebook`
+  
+esto abrirá una ventana en su navegador con el administrador de **notebooks** de 
+**Jupyter**.
+
+4. Luego, cree una nueva notebook
+
+    ![img21.png](assets/img21.png)
+    
+5. Y finalmente, clickeando donde dice **Untitled**, cambiele el nombre
+
+    ![img22.png](assets/img22.png)
+
