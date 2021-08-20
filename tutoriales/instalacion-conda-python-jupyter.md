@@ -20,21 +20,21 @@ y continúe con la instalación por defecto.
   
 2. Cree un nuevo **environment** con **Python 3**.
   
-  `$ conda create -n redes-neuronales python=3`
+  `(base) $ conda create -n redes-neuronales python=3`
   
 3. Activamos el nuevo **environment**
   
-  `$ conda activate redes-neuronales`  
+  `(base) $ conda activate redes-neuronales`  
   
 4. Instalamos los paquetes **Jupyer**, **matplotlib**, **numpy** y **scipy**.
 
-  `$ conda install -c anaconda numpy`
+  `(redes-neuronales) $ conda install -c anaconda numpy`
   
-  `$ conda install -c conda-forge matplotlib`
+  `(redes-neuronales) $ conda install -c conda-forge matplotlib`
   
-  `$ conda install -c anaconda jupyter`
+  `(redes-neuronales) $ conda install -c anaconda jupyter`
   
-  `$ conda install -c anaconda scipy`
+  `(redes-neuronales) $ conda install -c anaconda scipy`
   
 ## Inicie **Jupyter**
 
