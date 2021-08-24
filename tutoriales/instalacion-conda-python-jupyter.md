@@ -48,7 +48,7 @@ y continúe con la instalación por defecto.
   
 3. Luego type
   
-  `(redes-neuronales) $ conda jupyter notebook`
+  `(redes-neuronales) $ jupyter notebook`
   
 esto abrirá una ventana en su navegador con el administrador de **notebooks** de 
 **Jupyter**.
