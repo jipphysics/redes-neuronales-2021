@@ -4,6 +4,12 @@
 
 # GitHub  
 
+Git es una herramienta muy útil, pero, aprender a usarlo puede requerir una inversión de tiempo y esfuerzo considerable. Es decir, no es algo que se pueda aprender a usar correctamente en 5 minutos y, si no se lo aprende a usar correctamente, se van a topar con problemas constantemente. A los interesados en aprender git, se los recomiendo! Pero, por favor, no se atrasen en la materia por aprender a usar git, ya que pueden bajar el material desde github sin necesidad de hacerlo tal como se explica abajo. 
+
+En cualquier caso, para los interesados, el siguiente es un buen tutorial de git en español [git https://aulasoftwarelibre.github.io/taller-de-git/introduccion/](git https://aulasoftwarelibre.github.io/taller-de-git/introduccion/).
+
+## Como bajar archivos de GitHub sin usar Git?
+
 1. Si desea bajar todo el repositorio, vaya a la página principal del mismo, clickee el botón **Code** y econtrará un botón **Download ZIP**. Clickeelo y se bajará un archivo **.zip** con todo el contenido del repositorio.
   
   ![img17.png](assets/img17.png) 
