@@ -142,4 +142,6 @@ con la secuencia de comandos
     
 lo cual generará el archivo `main.pdf`, además de unos cuantos archivos auxiliares que podemos ignorar y/o borrar.
 
+En Windows existen programas como [MiKTeX](https://miktex.org/download).
+
 Alternativamente, existen plataformas online tales como [Overleaf](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) en donde uno puede crear, incorporar y/o editar archivos `.tex`, `.bib`, `.sty`, etc., así como incluir archivos gráficos.
