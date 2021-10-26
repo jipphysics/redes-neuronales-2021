@@ -73,7 +73,7 @@ podemos compilar el siguiente mini ejemplo (contenido de `main.tex`)
     \author{Juan I. Perotti}
     \email[]{juan.perotti@unc.edu.ar}
     \affiliation{Instituto de Física Enrique Gaviola (IFEG-CONICET), Ciudad Universitaria, 5000 Córdoba, Argentina}
-    \affiliation{Facultad de Matemática, Astronomía, Física y Computación, Universidad Nacional de Córdoba, Ciudad Universitaria, 5000 Có|rdoba, Argentina}Argentina}
+    \affiliation{Facultad de Matemática, Astronomía, Física y Computación, Universidad Nacional de Córdoba, Ciudad Universitaria, 5000 Có|rdoba, Argentina}
 
     \date{\today}
 
@@ -83,11 +83,17 @@ podemos compilar el siguiente mini ejemplo (contenido de `main.tex`)
 
     \maketitle
 
-    \section{\label{intro}Introducción}
+    \section{
+    \label{intro}
+    Introducción
+    }
 
     En los libros~\cite{verhulst1985nonlinear,wiggins2003introduction} podemos aprender sobre formas normales.
 
-    \subsection{\label{resultados}Resultados}
+    \section{
+    \label{resultados}
+    Resultados
+    }
 
     El atractor de Lorenz viene dado por la ecuación
     \begin{eqnarray}
@@ -108,6 +114,11 @@ podemos compilar el siguiente mini ejemplo (contenido de `main.tex`)
     En la figura~\ref{fig1}, podemos apreciar el atractor de Lorenz generado a partir de la ODE en la ecuación~\ref{eq1}.
     Esta figura fué extraída del primer libro mencionados en la sección~\ref{intro}.
 
+    \subsection{
+    \label{ejemplos}
+    Ejemplos
+    }
+
     Así incluimos direcciones web~\url{https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes}.
 
     \bibliography{references}
@@ -115,7 +126,7 @@ podemos compilar el siguiente mini ejemplo (contenido de `main.tex`)
     \onecolumngrid
     \appendix
 
-    \section{Apéndice A}
+    \section{este es un apéndice}
     \label{appA}
 
     Los apéndices los incluimos en formato de una columna.
