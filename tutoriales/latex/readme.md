@@ -72,8 +72,8 @@ podemos compilar el siguiente mini ejemplo (contenido de `main.tex`)
 
     \author{Juan I. Perotti}
     \email[]{juan.perotti@unc.edu.ar}
-    \affiliation{Instituto de F\'isica Enrique Gaviola (IFEG-CONICET), Ciudad Universitaria, 5000 C\'ordoba, Argentina}
-    \affiliation{Facultad de Matem\'atica, Astronom\'ia, F\'isica y Computaci\'on, Universidad Nacional de C\'ordoba, Ciudad Universitaria, 5000 C\'ordoba, Argentina}
+    \affiliation{Instituto de Física Enrique Gaviola (IFEG-CONICET), Ciudad Universitaria, 5000 Córdoba, Argentina}
+    \affiliation{Facultad de Matemática, Astronomía, Física y Computación, Universidad Nacional de Córdoba, Ciudad Universitaria, 5000 Có|rdoba, Argentina}Argentina}
 
     \date{\today}
 
