@@ -1,4 +1,4 @@
-# Repositorio del curso **Redes Neuronales 2021**
+# Curso **Redes Neuronales 2021** - FaMAF
 
 Página oficial del curso:
 
