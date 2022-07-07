@@ -26,7 +26,7 @@ y continúe con la instalación por defecto.
   
   `(base) $ conda activate redes-neuronales`  
   
-4. Instalamos los paquetes **Jupyer**, **matplotlib**, **numpy** y **scipy**.
+4. Instalamos los paquetes **Jupyer**, **matplotlib**, **numpy**, **scipy** y **scikit-learn**.
 
   `(redes-neuronales) $ conda install -c anaconda numpy`
   
@@ -35,6 +35,8 @@ y continúe con la instalación por defecto.
   `(redes-neuronales) $ conda install -c anaconda jupyter`
   
   `(redes-neuronales) $ conda install -c anaconda scipy`
+  
+  `(redes-neuronales) $ conda install -c anaconda scikit-learn`
   
 ## Inicie **Jupyter**
 
